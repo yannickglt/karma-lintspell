@@ -1,0 +1,21 @@
+{
+  "name": "karma-lintspell",
+  "version": "1.0.0",
+  "description": "A Karma plugin to check spelling of variables, strings and comments",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yannickglt/karma-lintspell.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-preprocessor",
+    "lintspelljs",
+    "hunspell"
+  ],
+  "author": "Yannick Galatol <yannick.galatol@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lintspelljs": "git+ssh://git@github.com:yannickglt/lintspelljs.git"
+  }
+}
