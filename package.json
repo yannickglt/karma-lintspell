@@ -16,6 +16,6 @@
   "author": "Yannick Galatol <yannick.galatol@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "lintspelljs": "git+ssh://git@github.com:yannickglt/lintspelljs.git"
+    "lintspelljs": "0.0.8"
   }
 }
