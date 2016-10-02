@@ -2,6 +2,7 @@
   "name": "karma-lintspell",
   "version": "1.0.1",
   "description": "A Karma plugin to check spelling of variables, strings and comments",
+  "author": "Yannick Galatol <yannick.galatol@gmail.com>",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
@@ -11,11 +12,13 @@
     "karma-plugin",
     "karma-preprocessor",
     "lintspelljs",
-    "hunspell"
+    "hunspell",
+    "spell-checking",
+    "spell-checker",
+    "spelling"
   ],
-  "author": "Yannick Galatol <yannick.galatol@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "lintspelljs": "0.0.8"
+    "lintspelljs": "git+ssh://git@github.com:yannickglt/lintspelljs.git#feat/authorize-capitalized-words"
   }
 }
