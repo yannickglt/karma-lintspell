@@ -1,4 +1,9 @@
 # karma-lintspell
+[![npm version](https://img.shields.io/npm/v/karma-lintspell.svg?style=flat-square)](https://www.npmjs.org/package/karma-lintspell)
+[![npm downloads](https://img.shields.io/npm/dm/karma-lintspell.svg?style=flat-square)](http://npm-stat.com/charts.html?package=karma-lintspell&from=2015-08-01)
+[![npm dependencies](https://img.shields.io/david/yannickglt/karma-lintspell.svg)](https://david-dm.org/yannickglt/karma-lintspell)
+[![npm devDependencies](https://img.shields.io/david/dev/yannickglt/karma-lintspell.svg)](https://david-dm.org/yannickglt/karma-lintspell)
+[![npm license](https://img.shields.io/npm/l/karma-lintspell.svg)](https://www.npmjs.org/package/karma-lintspell)
 
 > Check spelling of variables, strings and comments.
 
@@ -33,7 +38,6 @@ module.exports = function(config) {
     },
 
     // optionally, configure the reporter
-    
     lintspellReporter: {
       skipWords: ['init', 'str', 'arg', 'fn'],
       dir: 'reports/lintspell/',
