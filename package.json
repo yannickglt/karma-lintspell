@@ -20,5 +20,32 @@
   "license": "MIT",
   "dependencies": {
     "lintspelljs": "git+ssh://git@github.com:yannickglt/lintspelljs.git#feat/authorize-capitalized-words"
+  },
+  "devDependencies": {
+    "brfs": "^1.4.2",
+    "browserify": "^13.1.0",
+    "browserify-istanbul": "^1.0.0",
+    "browserify-shim": "^3.8.11",
+    "istanbul": "^0.4.2",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.15",
+    "karma-browserify": "^4.4.2",
+    "karma-coverage": "^0.5.3",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-spec-reporter": "0.0.26",
+    "phantomjs": "^1.9.19",
+    "proxyquire": "^1.7.10",
+    "proxyquire-universal": "^1.0.8",
+    "proxyquireify": "^3.2.1"
+  },
+  "scripts": {
+    "test": "karma start",
+    "bump": "npm run build && npm version patch && npm publish && git push --tags origin master",
+    "bump:minor": "npm run build && npm version minor && npm publish && git push --tags origin master",
+    "bump:major": "npm run build && npm version major && npm publish && git push --tags origin master"
+  },
+  "browserify-shim": {
+    "external": "global:External"
   }
 }
